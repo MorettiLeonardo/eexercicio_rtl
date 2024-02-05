@@ -1,17 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import Post from '.';
 import PostComment from '.';
-
-const comments = [
-    {
-        id: 1,
-        comment: 'teste1'
-    },
-    {
-        id: 2,
-        comment: 'teste2'
-    }
-]
 
 describe('Teste para o componente PostComment', () => {
     it('Deve renderizar o componente corretamente', () => {
